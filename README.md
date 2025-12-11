@@ -34,4 +34,4 @@ yarn dev
 
 - Je veux gérer la responsiveté de ma page, je voudrait que le layout principale soit cachée sur mobile et qu'il ait plutôt un drawer comment je peux le faire.
 
--Aide moi à améliorer de design de cette page en restant simple soft et avec les couleurs que j'utilise déjà vert orange et bleu.
+- Aide moi à améliorer de design de cette page en restant simple soft et avec les couleurs que j'utilise déjà vert orange et bleu.
