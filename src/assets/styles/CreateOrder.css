@@ -1,0 +1,337 @@
+/* Container principal */
+.create-order-container {
+  padding: 24px;
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+/* Carte principale */
+.create-order-card {
+  border-radius: 12px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+/* Header */
+.create-order-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #f3f4f6;
+}
+
+.create-order-header-icon {
+  width: 48px;
+  height: 48px;
+  background-color: #16a34a;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-order-header-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.create-order-header-subtitle {
+  margin: 0;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.create-order-header-icon-svg {
+  font-size: 24px;
+  color: white;
+}
+
+/* Section informations client */
+.create-order-client-info {
+  background-color: #f0fdf4;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #bbf7d0;
+  margin-bottom: 24px;
+}
+
+.create-order-client-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #15803d;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.create-order-client-title-icon {
+  color: #15803d;
+}
+
+/* Labels de formulaire */
+.create-order-form-label {
+  font-weight: 500;
+}
+
+/* Cartes produits */
+.create-order-product-card {
+  margin-bottom: 16px;
+  border-radius: 10px;
+  border: 2px solid #e5e7eb;
+  background-color: #fafafa;
+}
+
+.create-order-product-card-mobile {
+  margin-bottom: 12px;
+}
+
+.create-order-product-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 2px solid #e5e7eb;
+  background-color: #fff;
+}
+
+.create-order-product-image-mobile {
+  width: 50px;
+  height: 50px;
+}
+
+.create-order-product-image img {
+  object-fit: cover;
+}
+
+/* Layout desktop */
+.create-order-product-row-desktop {
+  display: flex;
+  align-items: center;
+}
+
+/* Layout mobile */
+.create-order-product-mobile-container {
+  width: 100%;
+}
+
+.create-order-product-mobile-section {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+/* Champs de formulaire */
+.create-order-product-field {
+  margin-bottom: 0;
+}
+
+.create-order-subtotal-label {
+  color: #16a34a;
+  font-weight: 500;
+}
+
+.create-order-subtotal-input {
+  font-weight: 600;
+  color: #16a34a;
+}
+
+/* Bouton ajouter produit */
+.create-order-add-button {
+  border-radius: 8px;
+  border-color: #16a34a;
+  color: #16a34a;
+  height: 48px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.create-order-add-button-mobile {
+  height: 40px;
+  font-size: 14px;
+}
+
+/* Section total */
+.create-order-total-box {
+  background-color: #16a34a;
+  padding: 20px 32px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.create-order-total-box-mobile {
+  padding: 16px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.create-order-total-label {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+.create-order-total-label-mobile {
+  font-size: 14px;
+}
+
+.create-order-total-amount {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+.create-order-total-amount-mobile {
+  font-size: 24px;
+}
+
+/* Boutons d'action */
+.create-order-action-buttons {
+  margin-top: 24px;
+  width: 100%;
+}
+
+.create-order-action-buttons-mobile {
+  margin-top: 16px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.create-order-submit-button {
+  background-color: #16a34a;
+  border-color: #16a34a;
+  height: 44px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  min-width: 180px;
+  box-shadow: 0 2px 6px rgba(22, 163, 74, 0.25);
+}
+
+.create-order-submit-button-mobile {
+  height: 40px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.create-order-cancel-button {
+  height: 44px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  min-width: 120px;
+}
+
+.create-order-cancel-button-mobile {
+  height: 40px;
+  font-size: 14px;
+  width: 100%;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .create-order-container {
+    padding: 16px;
+  }
+  
+  .create-order-header {
+    gap: 8px;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+  }
+  
+  .create-order-header-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .create-order-header-icon-svg {
+    font-size: 20px;
+  }
+  
+  .create-order-header-title {
+    font-size: 18px;
+  }
+  
+  .create-order-header-subtitle {
+    font-size: 12px;
+  }
+  
+  .create-order-client-info {
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .create-order-client-title {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  
+  .create-order-form-label {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 767px) {
+  .create-order-header-subtitle {
+    display: block;
+  }
+  
+  .create-order-action-buttons-mobile button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .create-order-header-title {
+    font-size: 18px;
+  }
+  
+  .create-order-product-card-mobile {
+    padding: 12px;
+  }
+  
+  .create-order-total-amount-mobile {
+    font-size: 20px;
+  }
+  
+  .create-order-submit-button-mobile,
+  .create-order-cancel-button-mobile {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .create-order-header-subtitle {
+    display: block;
+  }
+}
+
+/* Utilitaires */
+.create-order-hidden-mobile {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .create-order-hidden-mobile {
+    display: inline;
+  }
+}
+
+.create-order-visible-mobile {
+  display: inline;
+}
+
+@media (min-width: 768px) {
+  .create-order-visible-mobile {
+    display: none;
+  }
+}

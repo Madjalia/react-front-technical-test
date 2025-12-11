@@ -1,0 +1,133 @@
+/* Layout principal */
+.app-layout {
+  min-height: 100vh;
+}
+
+/* Sidebar Desktop */
+.app-sidebar {
+  background-color: #16a34a;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.app-sidebar-logo {
+  height: 64px;
+  margin: 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-sidebar-logo img {
+  height: 60px;
+  width: auto;
+}
+
+.app-sidebar-menu {
+  border: none;
+}
+
+/* Header */
+.app-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e5e7eb;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.app-header-mobile {
+  padding: 0 16px;
+}
+
+.app-header-desktop {
+  padding: 0 24px;
+}
+
+/* Logo dans le header */
+.app-header-logo {
+  text-decoration: none;
+}
+
+.app-header-logo h1 {
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0;
+}
+
+.app-header-logo-mobile {
+  margin-left: 12px;
+  font-size: 18px;
+}
+
+.app-header-logo-desktop {
+  margin-left: 16px;
+  font-size: 22px;
+}
+
+/* Badge dans le header */
+.app-header-badge {
+  color: #16a34a;
+  font-weight: 600;
+  background-color: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 6px;
+}
+
+.app-header-badge-mobile {
+  margin-left: 8px;
+  font-size: 10px;
+  padding: 2px 6px;
+}
+
+.app-header-badge-desktop {
+  margin-left: 12px;
+  font-size: 12px;
+  padding: 4px 10px;
+}
+
+/* Menu bouton */
+.app-menu-button {
+  font-size: 18px;
+  color: #1e293b;
+}
+
+/* Drawer Mobile */
+.app-drawer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.app-drawer-title {
+  margin: 0;
+  color: #16a34a;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.app-drawer-close-button {
+  color: #6b7280;
+}
+
+/* Contenu principal */
+.app-content {
+  margin: 0;
+  padding: 0;
+  min-height: 280px;
+  background: #f9fafb;
+  overflow: auto;
+}
+
+/* Menu items */
+.app-menu-item {
+  font-size: 15px;
+}
+
+.app-menu-icon {
+  font-size: 18px;
+}
